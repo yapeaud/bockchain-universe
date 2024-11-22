@@ -39,8 +39,8 @@ const BlockchainHeader = () => {
                         {/* Boutons */}
                         {/*<button className="btn btn-outline-dark me-2 mt-2">S'inscrire</button>
                         <button className="btn btn-dark mt-2">Connecter</button>*/}
-                        <Button label="S'inscrire" defaultClass="btn-outline-dark"/>
-                        <Button label="Connecter" defaultClass="btn-dark"/>
+                        <Button label="S'inscrire" defaultClass="btn-dark"/>
+                        <Button label="Connecter" defaultClass="btn-secondary"/>
                     </div>
                 </div>
 

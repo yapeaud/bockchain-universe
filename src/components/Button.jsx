@@ -4,7 +4,7 @@ const Button = ({ label, defaultClass }) => {
     const [isHovered, setIsHovered] = useState(false);
 
      // Déterminer la classe de survol (inverse de la classe par défaut)
-    const hoverClass = defaultClass === 'btn-dark' ? 'btn-outline-dark' : 'btn-dark';
+    const hoverClass = defaultClass === 'btn-secondary' ? 'btn-dark' : 'btn-secondary';
     return (
         <>
             <button
