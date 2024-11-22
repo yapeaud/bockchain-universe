@@ -23,8 +23,8 @@ const CryptoInterface = () => {
                             />
                             {/* Flèches */}
                             <div className="d-flex justify-content-between position-absolute w-100" style={{ top: "50%" }}>
-                                <button className="btn btn-secondary btn-sm">←</button>
-                                <button className="btn btn-secondary btn-sm">→</button>
+                                <button className="btn btn-sm"><i className="bi bi-arrow-left-circle-fill" style={{color: "orange"}}></i></button>
+                                <button className="btn btn-sm"><i className="bi bi-arrow-right-circle-fill" style={{color: "orange"}}></i></button>
                             </div>
                         </div>
                     </div>

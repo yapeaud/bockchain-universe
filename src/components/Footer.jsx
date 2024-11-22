@@ -1,16 +1,17 @@
 /* eslint-disable react/no-unescaped-entities */
-
+import logobu from '../assets/img/logobu.jpeg'
 
 const Footer = () => {
     return (
         <>
-            <footer className="bg-dark text-white py-4">
+            <footer className="bg-black text-white py-4">
                 <div className="container">
                     <div className="row">
                         {/* Logo et newsletter */}
                         <div className="col-12 col-md-6">
                             {/* Logo */}
-                            <h4 className="text-uppercase">Blockchain Universe</h4>
+                            {/*<h4 className="text-uppercase">Blockchain Universe</h4>*/}
+                            <img src={logobu} alt="" width={100} className='rounded' />
                             {/* Newsletter */}
                             <p>
                                 Inscrivez-vous à notre newsletter pour rester informé des nouveautés
@@ -83,7 +84,7 @@ const Footer = () => {
                                 </li>
                                 <li className="me-3">
                                     <a href="#" className="text-white">
-                                        <i className="bi bi-twitter"></i> X
+                                        <i className="bi bi-twitter-x"></i> X
                                     </a>
                                 </li>
                                 <li>
