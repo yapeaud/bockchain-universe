@@ -1,4 +1,4 @@
-
+import img1 from '../assets/img/img1.jpeg'
 
 const CryptoInterface = () => {
     return (
@@ -17,7 +17,7 @@ const CryptoInterface = () => {
                         {/* Image et navigation */}
                         <div className="position-relative">
                             <img
-                                src={"/src/assets/img/img1.jpeg"}
+                                src={img1}
                                 alt="Crypto-monnaie"
                                 className="img-fluid rounded"
                             />

@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 
+import logobu from '../assets/img/logobu.jpeg'
 
 const BlockchainHeader = () => {
     return (
@@ -13,7 +14,7 @@ const BlockchainHeader = () => {
                             <div className="bg-black text-white p-2 rounded">
                                 {/*<span className="fw-bold">Blockchain</span>
                                 <span className="text-warning">Universe</span>*/}
-                                <img src={"/src/assets/img/logo-bu.jpeg"} alt="" width={100} />
+                                <img src={logobu} alt="" width={100} />
                             </div>
                         </div>
                     </div>
