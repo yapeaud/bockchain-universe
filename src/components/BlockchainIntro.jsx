@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import img2 from '../assets/img/img2.jpeg'
+import Button from '../components/Button'
 
 const BlockchainIntro = () => {
     return (
@@ -80,8 +81,11 @@ const BlockchainIntro = () => {
 
                 {/* Appel à l'action */}
                 <div className="text-center mt-5">
-                    <button className="btn btn-primary me-3">S'inscrire</button>
-                    <button className="btn btn-outline-primary">En savoir plus</button>
+                    {/*<button className="btn btn-primary me-3">S'inscrire</button>
+                    <button className="btn btn-outline-primary">En savoir plus</button>*/}
+                    <Button label="S'inscrire" defaultClass="btn-warning" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <Button label="En savoir plus" defaultClass="btn-dark" />
                 </div>
             </div>
         </>

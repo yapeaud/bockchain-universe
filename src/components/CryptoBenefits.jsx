@@ -1,4 +1,5 @@
 import { benefits } from "../constants"
+import Button from '../components/Button'
 
 const CryptoBenefits = () => {
     return (
@@ -15,7 +16,7 @@ const CryptoBenefits = () => {
                                             <p className="card-text">{benefit.description}</p>
                                         </div>
                                     ))}
-                                    <button className="btn btn-dark mt-3">En savoir plus</button>
+                                        <Button label="En savoir plus" defaultClass="btn-dark" />
                                 </div>
                             </div>
                         </div>
