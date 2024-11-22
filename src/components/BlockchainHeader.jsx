@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 
 import logobu from '../assets/img/logobu.jpeg'
-import Button from '../components/Button'
+
 
 const BlockchainHeader = () => {
     return (
@@ -37,10 +37,10 @@ const BlockchainHeader = () => {
 
                     <div className="col-sm-12 col-md-3 col-lg-2 text-end mt-3 mt-md-0">
                         {/* Boutons */}
-                        {/*<button className="btn btn-outline-dark me-2 mt-2">S'inscrire</button>
-                        <button className="btn btn-dark mt-2">Connecter</button>*/}
-                        <Button label="S'inscrire" defaultClass="btn-dark"/>
-                        <Button label="Connecter" defaultClass="btn-secondary"/>
+                        <button className="btn btn-outline-dark me-2 mt-2">S'inscrire</button>
+                        <button className="btn btn-dark mt-2">Connecter</button>
+                        {/*<Button label="S'inscrire" defaultClass="btn-warning"/>
+                        <Button label="Connecter" defaultClass="btn-dark mb-2"/>*/}
                     </div>
                 </div>
 
