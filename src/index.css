@@ -1,0 +1,38 @@
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+/**/
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.text-orange {
+    color: orange;
+}
+
+.btc-info {
+    display: flex;
+    gap: 15px;
+}
+
+.btc-item {
+    text-align: center;
+    padding: 5px 10px;
+}
+
+@media (max-width: 768px) {
+    .btc-info {
+        flex-wrap: wrap;
+    }
+
+    .btc-item {
+        margin-bottom: 10px;
+    }
+}
+
+.bande-grise {
+    background-color: #e9ecef;
+    /* Couleur grise */
+    height: 50px;
+}
