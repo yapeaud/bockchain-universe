@@ -8,7 +8,7 @@ const BlockchainIntro = () => {
                 {/* Visuel principal */}
                 <div className="text-center mb-5">
                     <img
-                        src="/src/assets/img/img2.jpeg"
+                        src={"/src/assets/img/img2.jpeg"}
                         alt="Pièce de monnaie virtuelle enflammée"
                         className="img-fluid"
                         style={{ maxWidth: "300px" }}

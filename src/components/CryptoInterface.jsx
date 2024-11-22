@@ -17,7 +17,7 @@ const CryptoInterface = () => {
                         {/* Image et navigation */}
                         <div className="position-relative">
                             <img
-                                src="/src/assets/img/img1.jpeg"
+                                src={"/src/assets/img/img1.jpeg"}
                                 alt="Crypto-monnaie"
                                 className="img-fluid rounded"
                             />
