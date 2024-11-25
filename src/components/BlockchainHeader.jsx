@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 
+import { NavLink } from 'react-router-dom'
 import logobu from '../assets/img/logobu.jpeg'
 
 
@@ -15,7 +16,9 @@ const BlockchainHeader = () => {
                             <div className="bg-black text-white p-2 rounded">
                                 {/*<span className="fw-bold">Blockchain</span>
                                 <span className="text-warning">Universe</span>*/}
-                                <img src={logobu} alt="" width={100} />
+                                <NavLink to="/">
+                                    <img src={logobu} alt="" width={100} />
+                                </NavLink>
                             </div>
                         </div>
                     </div>
@@ -49,29 +52,29 @@ const BlockchainHeader = () => {
                     <nav className="col">
                         <ul className="nav justify-content-center">
                             <li className="nav-item">
-                                <a href="#actualite" className="nav-link text-dark">
+                                <NavLink to="/actualite-crypto" className="nav-link text-dark">
                                     Actualité Crypto
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="nav-item">
-                                <a href="#nouvelles" className="nav-link text-dark">
+                                <NavLink to="/nouvelles-blockchain" className="nav-link text-dark">
                                     Nouvelles Blockchain
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="nav-item">
-                                <a href="#guide" className="nav-link text-dark">
+                                <NavLink to="/guide-bitcoin" className="nav-link text-dark">
                                     Guide Bitcoin
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="nav-item">
-                                <a href="#infos" className="nav-link text-dark">
+                                <NavLink to="/more-infos" className="nav-link text-dark">
                                     Plus d'infos
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="nav-item">
-                                <a href="#academie" className="nav-link text-dark">
+                                <NavLink to="/academie" className="nav-link text-dark">
                                     Académie
-                                </a>
+                                </NavLink>
                             </li>
                         </ul>
                     </nav>
