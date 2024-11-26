@@ -36,3 +36,8 @@
     /* Couleur grise */
     height: 50px;
 }
+
+/**/
+.active {
+    color: #fd7e14 !important;
+}

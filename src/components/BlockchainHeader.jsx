@@ -52,27 +52,27 @@ const BlockchainHeader = () => {
                     <nav className="col">
                         <ul className="nav justify-content-center">
                             <li className="nav-item">
-                                <NavLink to="/actualite-crypto" className="nav-link text-dark">
+                                <NavLink to="/actualite-crypto" className={({ isActive }) => isActive ? "nav-link active" : "nav-link text-dark" } >
                                     Actualité Crypto
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to="/nouvelles-blockchain" className="nav-link text-dark">
+                                <NavLink to="/nouvelles-blockchain" className={({ isActive }) => isActive ? "nav-link active" : "nav-link text-dark" }>
                                     Nouvelles Blockchain
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to="/guide-bitcoin" className="nav-link text-dark">
+                                <NavLink to="/guide-bitcoin" className={({ isActive }) => isActive ? "nav-link active" : "nav-link text-dark" }>
                                     Guide Bitcoin
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to="/more-infos" className="nav-link text-dark">
+                                <NavLink to="/more-infos" className={({ isActive }) => isActive ? "nav-link active" : "nav-link text-dark" }>
                                     Plus d'infos
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to="/academie" className="nav-link text-dark">
+                                <NavLink to="/academie" className={({ isActive }) => isActive ? "nav-link active" : "nav-link text-dark" }>
                                     Académie
                                 </NavLink>
                             </li>
